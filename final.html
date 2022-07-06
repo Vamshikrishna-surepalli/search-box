@@ -1,0 +1,27 @@
+<html>
+    <center>
+<head>
+   
+<script>
+function myFunction() {
+ let ok= document.getElementById("first").value;
+  let ok1= document.getElementById("demo").value;
+var dig = (""+ok).split(',');
+  if(dig.includes(ok1)){
+alert(true)           
+  }else{
+alert(false)           
+  }
+}
+</script>
+</head>
+<body>
+
+<h2>text box and search box </h2>
+  <input type="text" id="first" ><br><br>
+  <input type="text" id="demo" name="fname"><br><br>
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+<center>
+</html>
